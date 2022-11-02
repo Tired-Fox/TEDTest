@@ -102,7 +102,7 @@ you get the results printed out. The `main()` function will run any method in th
 **Results:**
 
 <p align="center">
-  <img src="images/example_test.png" alt="Example Test Results">
+  <img src="https://raw.githubusercontent.com/Tired-Fox/TEDTest/main/images/example_test.png" alt="Example Test Results">
 </p>
 
 Since this package is used to test itself, feel free to look through the files in the repo's `tests/` folder to see **examples** and **outputs** of testing.
@@ -112,7 +112,7 @@ Since this package is used to test itself, feel free to look through the files i
 This library also includes a CLI tool to run your tests, `TEDTest`. By default, it will search your current directory recursively for python files that have classes that inherit from `Test` or methods decorated by `test`. Each file is concidered a test suite and the test classes and cases contained within it are added to a suite. It then adds teh suites to a `RunResult` with the name of your current directory and runs them. This outputs the results to the terminal. Check out `TEDTest -h` for extra options and customization for the CLI tool.
 
 <p align="center">
-  <img src="images/TED_example_5.png" alt="Example Test Results">
+  <img src="https://raw.githubusercontent.com/Tired-Fox/TEDTest/main/images/TED_example_5.png" alt="Example Test Results">
 </p>
 
 <p align="center" style="bold">
@@ -121,5 +121,5 @@ This library also includes a CLI tool to run your tests, `TEDTest`. By default, 
 
 **Example from testing the module itself**
 <p align="center">
-  <img src="images/TED_example_7.png" alt="Example Test Results">
+  <img src="https://raw.githubusercontent.com/Tired-Fox/TEDTest/main/images/TED_example_7.png" alt="Example Test Results">
 </p>
